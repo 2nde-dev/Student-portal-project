@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(images/palmtree.jpg);
+}
+p {
+  color: yellow;
+}
+
+.container {
+  width: 400px;
+  height: auto;
+  margin: 20vh auto 0 auto;
+  padding: 20px;
+  background-color: whitesmoke;
+  border-radius: 4px;
+  font-size: 1rem;
+  border-radius: 23px;
+  background: #5688bd;
+  box-shadow: 5px 5px 10px #345271, -5px -5px 10px #66819a;
+}
+
+.container #signupbtn {
+  padding: 10px;
+  margin-top: 10px;
+  width: 70%;
+  color: blue;
+  background-color: rgb(41, 194, 84);
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  margin-left: 60px;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+.container button {
+  padding: 10px;
+  margin-top: 10px;
+  width: 30%;
+  color: red;
+  background-color: yellow;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  margin-left: 130px;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+.form__input input {
+  border: 2px solid #f0f0f0;
+  border-radius: 20px;
+  display: block;
+  font-size: 12px;
+  padding: 10px;
+  width: 100%;
+}
+
+.container h1 {
+  color: #0f2027;
+  text-align: center;
+}
+
+.form__input input:focus {
+  outline: 0;
+}
+
+.container #display input {
+  border-color: #ff3860;
+}
+
+.container #display {
+  color: #ff3860;
+  font-size: 2rem;
+  height: 2vh;
+}
+p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.form__input label {
+  color: purple;
+  margin: 10px 5px;
+  font-weight: bolder;
+}
