@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sign-up</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form__input">
+        <label for="firstname">First Name</label>
+        <input type="text" placeholder="Enter first name" id="userfirstname" />
+      </div>
+
+      <div class="form__input">
+        <label for="lastname">Last Name</label>
+        <input type="text" placeholder="Enter last name" id="userlastname" />
+      </div>
+
+      <div class="form__input">
+        <label for="email">Email</label>
+        <input type="email" placeholder="Enter email" id="useremail" />
+      </div>
+
+      <div class="form__input">
+        <label for="password">Password</label>
+        <input type="password" placeholder="Enter password" id="userpassword" />
+
+        <button onclick="signUp()" id="signupbtn">Sign up</button>
+        <p>Already have a account? click the SignIn button to login</p>
+        <button onclick="signIn()">SignIn</button>
+        <p><a href="search.html">Search for stundent</a></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
